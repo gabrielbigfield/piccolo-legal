@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Piccolo</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 2rem 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 0.5rem;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 2rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        ul {
+            margin-bottom: 1rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .highlight {
+            background-color: #e8f4fd;
+            border-left: 4px solid #3498db;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-weight: bold;
+        }
+        code {
+            background-color: #f1f2f6;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: Consolas, Monaco, 'Andale Mono', monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> [8/10/2026]</p>
+
+        <p>This Privacy Policy explains how Piccolo ("we", "us", or "our") collects, uses, and protects your information when you use our Android mobile application.</p>
+
+        <div class="highlight">
+            Piccolo is an entirely offline, local music player. We do not collect, transmit, share, or sell any of your personal data.
+        </div>
+
+        <h2>1. What Data We Handle and Why</h2>
+        <p>Because Piccolo operates offline, all data processing happens directly on your device.</p>
+        <ul>
+            <li><strong>Audio Files and Media:</strong> We require permission to read your device's audio files (using <code>READ_MEDIA_AUDIO</code> on Android 13+ or <code>READ_EXTERNAL_STORAGE</code> on older versions) to find, display, and play your music.</li>
+            <li><strong>Media Metadata:</strong> We read metadata embedded in your audio files (such as song titles, artists, album names, and durations) to display them in the app.</li>
+            <li><strong>Play History and Preferences:</strong> The app stores your listening history, favorite songs, recent tracks, custom playlists, and app settings (like theme colors and playback preferences) in a local, private database (<code>SharedPreferences</code>) on your device.</li>
+            <li><strong>Custom Artwork:</strong> If you assign custom album artwork, the image is copied from your gallery into the app's local, private storage.</li>
+        </ul>
+
+        <h2>2. Permissions We Request</h2>
+        <ul>
+            <li><strong>Music and Audio (Storage):</strong> Required to scan your device for audio files to build your music library.</li>
+            <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> Required to display the media playback control notification while music is playing in the background.</li>
+            <li><strong>Foreground Service:</strong> Required by Android to keep the app running in the background so your music doesn't stop when you turn off the screen.</li>
+        </ul>
+        <p><em>Note on Audio Visualization:</em> Piccolo generates audio visualizers by reading the playback audio stream directly inside the player. We do <strong>not</strong> use the device microphone and do <strong>not</strong> request or use the <code>RECORD_AUDIO</code> permission.</p>
+
+        <h2>3. Third-Party Services and Analytics</h2>
+        <p><strong>None.</strong> Piccolo does not contain any third-party analytics, crash reporting SDKs, or advertising networks. The app does not even request the <code>INTERNET</code> permission, making it physically impossible for it to transmit data off your device.</p>
+
+        <h2>4. Data Backup</h2>
+        <p>While we do not upload your data to any of our servers, your app settings, custom playlists, and play history may be automatically backed up to your personal Google Drive if you have Android's built-in device backup feature enabled. This is controlled entirely by your Android system settings.</p>
+
+        <h2>5. Data Retention and Deletion</h2>
+        <p>Your data (listening history, preferences, and custom artwork) is kept locally on your device for as long as you have the app installed. You can delete all this data at any time by clearing the app's data in your Android Settings or by uninstalling Piccolo.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>Our app does not collect personal information from anyone, including children under the age of 13.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Since the app is completely offline, any functional changes affecting data handling will be reflected in updates to the app on the Google Play Store.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:[gabrielbigfield@gmail.com]">[gabrielbigfield@gmail.com]</a></p>
+    </div>
+</body>
+</html>
